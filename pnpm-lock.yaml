@@ -6,11 +6,14 @@ dependencies:
   history: 5.0.0
   js-cookie: 3.0.0
   msw: 0.33.0
+  popup: 0.0.3
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
   react-icons: 4.2.0_react@17.0.1
   react-loader-spinner: 4.0.0_react-dom@17.0.1+react@17.0.1
   react-router-dom: 5.2.0_react@17.0.1
+  reactjs: 1.0.0
+  reactjs-popup: 2.0.6_react-dom@17.0.1+react@17.0.1
 devDependencies:
   eslint-config-airbnb: 18.2.1
   eslint-config-prettier: 8.1.0
@@ -5372,6 +5375,16 @@ packages:
     dev: true
     resolution:
       integrity: sha512-T0+barUSQRTUQASh8bx02dl+DhF54GtIDY13Y3m9oWTklKbb3Wv974meRpeZ3lp1JpLVECWWNHC4vaG2XHXouQ==
+  /component-emitter/2.0.0:
+    dev: false
+    engines:
+      node: '>=18'
+    resolution:
+      integrity: sha512-4m5s3Me2xxlVKG9PkZpQqHQR7bgpnN7joDMJ4yvVkVXngjoITG76IaZmzmywSeRTeTpc6N6r3H3+KyUurV8OYw==
+  /component-inherit/0.0.3:
+    dev: false
+    resolution:
+      integrity: sha512-w+LhYREhatpVqTESyGFg3NlP6Iu0kEKUHETY9GoZP/pQyW4mHFZuFWRUCIqVPZ36ueVLtoOEZaAqbCF2RDndaA==
   /compose-function/3.0.3:
     dependencies:
       arity-n: 1.0.4
@@ -11255,6 +11268,13 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-7Wjy+9E3WwLOEL30D+m8TSTF7qJJUJLONBnwQp0518siuMxUQUbgZwssaFX+QKlZkjHZcw/IpZCt/H0srrntSg==
+  /popup/0.0.3:
+    dependencies:
+      component-emitter: 2.0.0
+      component-inherit: 0.0.3
+    dev: false
+    resolution:
+      integrity: sha512-+555JSn78AMTHhGzMV//e5dWNkJ7rNTwn1S/R9sfKHFdLrAP5RfFME0JxLPCQD/kv/58aP/3vbJwqSTIVooT7Q==
   /portfinder/1.0.32:
     dependencies:
       async: 2.6.4
@@ -12472,6 +12492,22 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==
+  /reactjs-popup/2.0.6_react-dom@17.0.1+react@17.0.1:
+    dependencies:
+      react: 17.0.1
+      react-dom: 17.0.1_react@17.0.1
+    dev: false
+    engines:
+      node: '>=10'
+    peerDependencies:
+      react: '>=16'
+      react-dom: '>=16'
+    resolution:
+      integrity: sha512-A+tt+x9wdgZiZjv0e2WzYLD3IfFwJALaRaqwrCSXGjo0iQdsry/EtBEbQXRSmQs7cHmOi5eytCiSlOm8k4C+dg==
+  /reactjs/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-qA9hlxvt0NJueuZ+WnFnngajVWCqtGI4/y3mAxN7U5yoiZqaGie/QIvjqI8gUOYU06bh7Qpc872CSxhZiId5Gw==
   /read-pkg-up/7.0.1:
     dependencies:
       find-up: 4.1.0
@@ -15347,6 +15383,7 @@ specifiers:
   lint-staged: 10.5.4
   msw: 0.33.0
   npm-run-all: 4.1.5
+  popup: 0.0.3
   prettier: 2.2.1
   react: 17.0.1
   react-dom: 17.0.1
@@ -15354,3 +15391,5 @@ specifiers:
   react-loader-spinner: 4.0.0
   react-router-dom: 5.2.0
   react-scripts: 4.0.3
+  reactjs: 1.0.0
+  reactjs-popup: 2.0.6

@@ -1,0 +1,60 @@
+.payments-container {
+  padding: 25px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.payments-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  color: blueviolet;
+}
+.payments-sub-heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: blueviolet;
+}
+.payment-method-inputs {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.payment-method-input-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.payment-method-input {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+.payment-method-label {
+  font-size: 15px;
+  font-weight: 600;
+  color: blueviolet;
+}
+.disabled-label {
+  color: gray;
+}
+.confirm-order-button {
+  background-color: teal;
+  color: white;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+.confirm-order-button:disabled {
+  opacity: 0.5;
+  background-color: gray;
+}
+.success-message {
+  color: teal;
+  font-weight: 500;
+  font-size: 18px;
+}
